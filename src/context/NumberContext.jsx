@@ -1,5 +1,5 @@
 import  {createContext, useReducer} from "react";
-import NumberReducer from "./NUmberReducer";
+import NumberReducer from "./NumberReducer";
 const NumberContext=createContext();
 export const NumberProvider=({children})=>{
     const initialState={
